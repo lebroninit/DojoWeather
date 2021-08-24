@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#agreement{
+    font-size: 1.1em;
+}
+
+button{
+    width: 10%;
+    height: 25px;
+    margin-top: 2.5%;
+    background-color: #9fc5f8;
+    box-shadow: 1px 2px black;
+}
+
+.cit{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#cities{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+#city{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 0
+}
+
+.cold{
+    color: blue;
+    font-size: 2em;
+}
+
+#container{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#cookie{
+    margin-right:2%;
+    height:100%;
+    width: 8%;
+}
+
+.day{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    margin: 0 1%;
+}
+
+#degree{
+    height: 30px;
+    
+}
+
+.exp{
+    font-size: 1.3em;
+    margin-bottom: 10%;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2.2em;
+    margin: 5% 0;
+}
+
+h5{
+    font-size: 1.6em;
+}
+
+#header{
+    display: flex;
+    background-color: #9fc5f8;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.hot{
+    color: red;
+    font-size: 2em;
+    margin-right: 70%;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+}
+
+.pic{
+    border-radius: 50%;
+    width: 65%;
+    margin-bottom: 7%;
+}
+
+#popup{
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: #eeeeee;
+    padding: 2%;
+}
+
+#sat{
+    margin-right: 0;
+}
+
+
+#selector{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#show{
+    margin-right: 6%;
+    white-space: nowrap;
+}
+
+.temps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#today{
+    margin-left:0;
+}
+
+#weather{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    justify-content: space-between;
+}
+
+#writ{
+    margin-right: 5%;
+}
